@@ -10,6 +10,12 @@ img {
     height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .invenit_feature_area {
+        display: none;
+    }
+}
+
 body {
     color: #929292;
     font-family: 'Work Sans', sans-serif;
@@ -11515,6 +11521,9 @@ span.post-date {
 
 .mobile_menu_logo.text-center {
     padding: 20px 0;
+}
+.mobile_menu_logo.text-center img {
+    width: 25%;
 }
 
 .em_creative_header {
